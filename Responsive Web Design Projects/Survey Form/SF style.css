@@ -8,13 +8,13 @@ html {
      font-family: Arial, Helvetica, sans-serif;
 }
 
-form {
+#survey-form {
     background: rgb(0, 0, 51);
     padding: 1.5rem;
     min-width: 480px;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 19px;
+    font-family: 'Courier New', Courier, monospace;
+    
     margin: auto;
 }
 
@@ -30,27 +30,24 @@ main {
 }
 
 #name-label, #email-label, #number-label, #role, #recommend-label, 
-#feature-label, #improvements-label, #comments-label, #improvements {
+#feature-label, #improvements-label, #comments-label, .improvements {
     text-align: left;
+    font-size: 19px;
 }
 
-#name, #email, #number, #dropdown {
+#name, #email, #number, .dropdown, #comments {
     border-width:1px;
     border-style:inset;
     border-radius: 4px;
     border: 1px #ccc solid;
     height: 30px;
     width: 100%;
+    font-size: 12px;
 }
 
 #comments {
-    border: 1px #ccc solid;
     height: 50px;
-    width: 100%;
-    border-width:1px;
-    border-style:inset;
-    border-radius: 4px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif
 }
 
 #submit {

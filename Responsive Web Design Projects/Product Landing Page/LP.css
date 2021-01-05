@@ -1,0 +1,43 @@
+#header {
+
+}
+
+#header-img {
+    width: 100px;
+    margin: 15px 0px 0px 15px;
+}
+
+#nav-bar {
+    text-align: right;
+    
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    margin: 12px;
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+    display: inline-flex
+}
+
+#form {
+    text-align: center  ;
+}
+
+#email {
+    font-size: 17px;
+    border-color: ;
+}
+
+#submit {
+    font-size: 17px;
+}
+
+#video {
+
+}
+
