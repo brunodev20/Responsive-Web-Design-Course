@@ -1,36 +1,119 @@
 <html>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://kit.fontawesome.com/7414e22221.js"></script>
+
+    <div class="main">
+
+    
     <header id="header">
         <link rel="stylesheet" href="LP.css">
 
-        <img id="header-img" src="https://logodownload.org/wp-content/uploads/2014/04/nike-logo-1-1.png" alt="Nike Logo">
+        <img id="header-img" src="https://i1.wp.com/sportsfinding.com/wp-content/uploads/2020/02/nike-swoosh-wikipedia.jpg?fit=580%2C350&ssl=1&resize=1280%2C720" alt="Nike Logo">
 
         <nav id="nav-bar">
             <ul>
-                <li>
-                    <a class="nav-link" href="">Accessories</a>
-                </li>
-
-                <li>
-                    <a class="nav-link" href="">Clothes</a>
-                </li>
-
-                <li>
-                    <a class="nav-link" href="">Footwear</a>
-                </li>
+                <li><a class="nav-link" href="#featured">Features</a></li>
+                <li><a class="nav-link" href="#video">How It Works</a></li>
+                <li><a class="nav-link" href="pricing">Pricing</a></li>
             </ul>
-
         </nav>
     </header>
 
 
-    <body>
+    <div class="container subscribe">
+        <h2>Subscribe to our website. Just do it.</h2>
         <form id="form" action="https://www.freecodecamp.com/email-submit">
-            <input id="email" type="text" placeholder= "Enter your email...">
-            <button id="submit" type="submit">Submit</button>
+            <input id="email" type="email" placeholder= "Enter your email...">
+            <input id="submit" type="submit" value="Submit">
         </form>
+    </div>
 
-        <video id="video">
-            
-        </video>
-    </body>
+        <section id="featured" class="container">
+            <div class="featured-wrapper">
+                <div class="featured-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                </div> 
+            <div class="featured-text">
+                <h3>Sports gear at its best</h3>
+                <p>Get the best products there are in the sports market.</p>
+            </div>
+        </div>
+
+
+        <div class="featured-wrapper">
+            <div class="featured-icon">
+                <i class="fa fa-tag"></i>
+            </div> 
+        <div class="featured-text">
+            <h3>Access to discounts.</h3>
+            <p>Subscribe today to get access to the latest discounts in our store.</p>
+        </div>
+    </div>
+
+
+    <div class="featured-wrapper">
+        <div class="featured-icon">
+                <i class="fas fa-battery-three-quarters"></i>
+            </div> 
+        <div class="featured-text">
+            <h3>Train like a pro</h3>
+            <p>Our products offer the best workout experiences ever.</p>
+        </div>
+    </div>
+    </section>
+
+
+    <section id="video">
+        <iframe width="704" height="480" src="https://www.youtube.com/embed/MIr6QtAvzZM" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+        gyroscope; picture-in-picture" allowfullscreen></iframe>     
+    </section>
+
+    <section id="pricing">
+        <div class="pricing-wrapper">
+            <div class="pricing-box">
+                <h4>Nike Air Shoes</h4>
+                <p class="price">Starting at $80</p>
+                <p>Loren Ipsum</p>
+                <p>Loren Ipsum</p>
+                <p>Loren Ipsum</p>
+                <p>Loren Ipsum</p>
+                <a href="" class="btn">Select</a>
+            </div>
+
+            <div class="pricing-box">
+                <h4>Nike Renew Run Shoes</h4>
+                <p class="price">Starting at $60</p>
+                <p>Loren Ipsum</p>
+                <p>Loren Ipsum</p>
+                <p>Loren Ipsum</p>
+                <p>Loren Ipsum</p>
+                <a href="" class="btn">Select</a>
+            </div>
+
+            <div class="pricing-box">
+                <h4>Nike Super Rep Go</h4>
+                <p class="price">Starting at $100</p>
+                <p>Loren Ipsum</p>
+                <p>Loren Ipsum</p>
+                <p>Loren Ipsum</p>
+                <p>Loren Ipsum</p>
+                <a href="" class="btn">Select</a>
+            </div>
+    </section>
+
+    <footer>
+        <div class="footer-nav">
+            <ul>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-copyright">
+            <p>Copyright 2020 Nike</p>
+        </div>
+    </footer>
+</div>
 </html>
